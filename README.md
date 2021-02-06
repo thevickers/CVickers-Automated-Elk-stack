@@ -104,9 +104,9 @@ The following screenshot displays the result of running `docker ps` after succes
 
        | Name  	    |   	| IP Address 	|
        |-------	    |---  |------------	|
-       | Web-1 	    |   	| 10.0.0.5   	|
-       | Web-2 	    |   	| 10.0.0.6   	|
-       | Web-3 	    |   	| 10.0.0.7   	|
+       | Web-1 	    |   	| 10.0.0.10    	|
+       | Web-2 	    |   	| 10.0.0.11 	|
+       | Web-3 	    |   	| 10.0.0.12  	|
 
 We have installed the following Beats on these machines:
 - filebeat
