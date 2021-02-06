@@ -26,6 +26,8 @@ This document contains the following details:
 ### Description of the Topology
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
+![image]()
+![image]()
 
 Load balancing ensures that the application will be highly protected, in addition to restricting trafic to the network.
 -  Azure Load Balancer operates at layer four of the Open Systems Interconnection (OSI) model and protects servers from getting overloaded and possibly breaking down. If a single server goes down, the load balancer redirects traffic to the remaining online servers. When a new server is added to the server group, the load balancer automatically starts to send requests to it. In other words, load balancing improves service availability and helps prevent downtimes.
