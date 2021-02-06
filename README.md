@@ -26,7 +26,7 @@ This document contains the following details:
 ### Description of the Topology
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
-![image]()
+![image](https://github.com/thevickers/CVickers-Automated-Elk-stack/blob/main/Diagrams/Elk-topogroghy.png)
 ![image]()
 
 Load balancing ensures that the application will be highly protected, in addition to restricting trafic to the network.
