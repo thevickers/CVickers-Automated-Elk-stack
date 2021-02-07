@@ -96,7 +96,7 @@ The playbook implements the following tasks:
 - Download and launch a docker
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![image](https://docs.google.com/document/d/1kvxN5ifdg-kIqWL0lmEC5XL3ghmh9GKGAYo0fuW95bQ/edit)
+![image](TODO:add screen shot of Docker ps on Elk machine)
 
 ### Target Machines & Beats
  This ELK server is configured to monitor the following machines:
