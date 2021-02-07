@@ -112,6 +112,7 @@ We have installed the following Beats on these machines:
 - filebeat
 - metricbeat
 These Beats allow us to collect the following information from each machine:
+
 Filebeat - collects data about the file system such as log events, and ships them to the monitoring cluster.
 
 Metricbeat - collects metrics and statistics and ships them to the output that was specified, such as Elasticsearch or Logstash.
@@ -122,13 +123,13 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 
 SSH into the control node and follow the steps below:
-- Copy the Playbook  file to Ansible.
-- Update the host file to include webserver and ELK.
+- Copy the <name>-playbook.yml  file to Ansible.
+- Update the host file to include [webserver] and [ELK] IP addresses. For example: (10.0.0.5 ansible_python_interpreter=/usr/bin/python3)
 - Run the playbook, and navigate to Kibana to check that the installation worked as expected.
 
 Specific commands the user will need to run to download the playbook
 
-- nano ansible.cfg
+- nano <path>/ansible.cfg
 - add the machine, its IP, and ansible_python_interpreter=/usr/bin/python3 to the hosts
 - Ctrl + x to exit file
 - in the folder that install-elk.yml is in, run: cp install-elk.yml /etc/ansible
